@@ -10,7 +10,7 @@
 
 
 ### 실행 방법 
-1. KafkaCongestionStreaming (python async_congestion.py)
+1. KafkaCongestionStreaming 
 ```python async_congestion.py```
 
 2. SparkCOngestionStreaming
