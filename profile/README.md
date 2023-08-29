@@ -4,9 +4,11 @@
 </div>
 
 ## 3개의 repository
-1. KafkaCongestionStreaming [API 호출 -> pydantic -> kafka] 
-2. SparkCOngestionStreaming [spark streaming -> [kafka, s3, athena]]
-3. TrafficBackend [backend]
+1. KafkaCongestionStreaming</br>
+   1.1. [API 호출 -> pydantic -> kafka] 
+2. SparkCOngestionStreaming </br>
+   2.1. [Kafka -> [sink-connection -> s3 -> athena], [backend(fastapi)]]   
+4. TrafficBackend [backend]
 
 
 ### 실행 방법 
@@ -15,3 +17,6 @@
 
 2. SparkCOngestionStreaming
 ```python spark_connection/rate_congestion.py```
+
+3. TrafficBackend
+```sudo docker compose up --build```
