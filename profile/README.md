@@ -5,7 +5,7 @@
 
 ## 3개의 repository
 1. KafkaCongestionStreaming [API 호출 -> pydantic -> kafka] 
-2. SparkCOngestionStreaming [spark streaming -> [kafka, mysql]]
+2. SparkCOngestionStreaming [spark streaming -> [kafka, s3, athena]]
 3. TrafficBackend [backend]
 
 
