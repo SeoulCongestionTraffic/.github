@@ -1,7 +1,8 @@
 # 서울시 도시 혼잡도  (공사 중)
 <div class="center">
-  <img width="800" alt="image" src="https://github.com/SeoulCongestionTraffic/.github/assets/52487610/5b7bd085-20bc-442f-8714-f07dff0fb2c1">
+  <img width="800" alt="image" src="https://github.com/SeoulCongestionTraffic/.github/assets/52487610/189b0ed6-6641-47e1-b702-0bb3929a7608">
 </div>
+
 
 ## 3개의 repository
 1. KafkaCongestionStreaming</br>
